@@ -37,7 +37,7 @@ class ProductResource extends Resource
                 Forms\Components\TextInput::make('price')
                     ->required()
                     ->numeric()
-                    ->prefix('$'),
+                    ->prefix('Php'),
                 Forms\Components\TextInput::make('stock_quantity')
                     ->required()
                     ->numeric(),
